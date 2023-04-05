@@ -6,7 +6,7 @@ import { Links } from './Links';
 
 export const Search = () => {
   const { setSearchTerm } = useStateContext();
-  const [text, setText] = useState('hoba');
+  const [text, setText] = useState('javascript');
   const [debouncedValue] = useDebounce(text, 300);
   console.log('debouncedValue ite,', debouncedValue);
   useEffect(() => {
