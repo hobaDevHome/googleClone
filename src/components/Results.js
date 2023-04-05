@@ -83,7 +83,7 @@ export const Results = () => {
                         appId: '12345',
                       },
                     }}
-                    url={video.link}
+                    url={video.additional_links?.[0].href}
                     controls
                     width='640'
                     height='360'
